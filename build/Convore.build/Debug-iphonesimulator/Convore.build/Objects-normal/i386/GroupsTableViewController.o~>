@@ -1,0 +1,21 @@
+/Developer/Convore/GroupsTableViewController.m: In function '-[GroupsTableViewController viewDidLoad]':
+/Developer/Convore/GroupsTableViewController.m:25: error: 'responseData' undeclared (first use in this function)
+/Developer/Convore/GroupsTableViewController.m:25: error: (Each undeclared identifier is reported only once
+/Developer/Convore/GroupsTableViewController.m:25: error: for each function it appears in.)
+/Developer/Convore/GroupsTableViewController.m: In function '-[GroupsTableViewController connection:didReceiveResponse:]':
+/Developer/Convore/GroupsTableViewController.m:31: error: 'responseData' undeclared (first use in this function)
+/Developer/Convore/GroupsTableViewController.m: In function '-[GroupsTableViewController connection:didReceiveData:]':
+/Developer/Convore/GroupsTableViewController.m:35: error: 'responseData' undeclared (first use in this function)
+/Developer/Convore/GroupsTableViewController.m: In function '-[GroupsTableViewController connectionDidFinishLoading:]':
+/Developer/Convore/GroupsTableViewController.m:45: error: 'responseData' undeclared (first use in this function)
+/Developer/Convore/GroupsTableViewController.m:48: error: 'results' undeclared (first use in this function)
+/Developer/Convore/GroupsTableViewController.m:48: warning: 'NSString' may not respond to '-JSONValue'
+/Developer/Convore/GroupsTableViewController.m:48: warning: (Messages without a matching method signature
+/Developer/Convore/GroupsTableViewController.m:48: warning: will be assumed to return 'id' and accept
+/Developer/Convore/GroupsTableViewController.m:48: warning: '...' as arguments.)
+/Developer/Convore/GroupsTableViewController.m: In function '-[GroupsTableViewController numberOfSectionsInTableView:]':
+/Developer/Convore/GroupsTableViewController.m:86: error: expected expression before '<' token
+/Developer/Convore/GroupsTableViewController.m:87: warning: control reaches end of non-void function
+/Developer/Convore/GroupsTableViewController.m: In function '-[GroupsTableViewController tableView:numberOfRowsInSection:]':
+/Developer/Convore/GroupsTableViewController.m:92: error: expected expression before '<' token
+/Developer/Convore/GroupsTableViewController.m:93: warning: control reaches end of non-void function

@@ -1,0 +1,324 @@
+TConvore
+v7
+r0
+t319415973.054766
+cCheck dependencies
+cProcessInfoPlistFile /Developer/Convore/build/Debug-iphonesimulator/Convore.app/Info.plist Convore-Info.plist
+cCompileXIB /Developer/Convore/MainWindow.xib
+cCompileXIB /Developer/Convore/Classes/LoginViewController.xib
+cProcessPCH /var/folders/Hp/HpVBSraeHzmsLFbom5szkU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Convore_Prefix-bdfylqysddpletcognfimmkcpapz/Convore_Prefix.pch.gch Convore_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Convore.build/Debug-iphonesimulator/Convore.build/Objects-normal/i386/main.o /Developer/Convore/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Convore.build/Debug-iphonesimulator/Convore.build/Objects-normal/i386/ConvoreAppDelegate.o /Developer/Convore/Classes/ConvoreAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Convore.build/Debug-iphonesimulator/Convore.build/Objects-normal/i386/LoginViewController.o /Developer/Convore/Classes/LoginViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Convore.build/Debug-iphonesimulator/Convore.build/Objects-normal/i386/Base64.o /Developer/Convore/Classes/Base64.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Developer/Convore/build/Debug-iphonesimulator/Convore.app/Convore normal i386
+cGenerateDSYMFile /Developer/Convore/build/Debug-iphonesimulator/Convore.app.dSYM /Developer/Convore/build/Debug-iphonesimulator/Convore.app/Convore
+cTouch /Developer/Convore/build/Debug-iphonesimulator/Convore.app
+
+N/Developer/Convore/Classes/Base64.h
+c000000004D59A58A0000000000000108
+t1297720714
+s264
+i<Foundation/Foundation.h>
+
+N/Developer/Convore/Classes/Base64.m
+c000000004D59A5900000000000000620
+t1297720720
+s1568
+i"Base64.h"
+
+N/Developer/Convore/Classes/ConvoreAppDelegate.h
+c000000004D59AA6200000000000001AC
+t1297721954
+s428
+i<UIKit/UIKit.h>
+i"LoginViewController.h"
+
+N/Developer/Convore/Classes/ConvoreAppDelegate.m
+c000000004D59AA8E0000000000000A64
+t1297721998
+s2660
+i"ConvoreAppDelegate.h"
+
+N/Developer/Convore/Classes/LoginViewController.h
+c000000004D59AEA60000000000000240
+t1297723046
+s576
+i<UIKit/UIKit.h>
+i"Base64.h"
+
+N/Developer/Convore/Classes/LoginViewController.m
+c000000004D59AF220000000000000C3E
+t1297723170
+s3134
+i"LoginViewController.h"
+
+N/Developer/Convore/Classes/LoginViewController.xib
+c000000004D59AD420000000000006901
+t1297722690
+s26881
+
+N/Developer/Convore/Classes/MainViewController.h
+c000000004D599E8D00000000000000F6
+t1297718925
+s246
+i<UIKit/UIKit.h>
+
+N/Developer/Convore/Classes/MainViewController.m
+c000000004D599E8D0000000000001142
+t1297718925
+s4418
+i"MainViewController.h"
+
+N/Developer/Convore/Classes/MainViewController.xib
+c000000004D599E8D0000000000001C81
+t1297718925
+s7297
+
+N/Developer/Convore/Convore_Prefix.pch
+c000000004D599B6D00000000000000B7
+t1297718125
+s183
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Developer/Convore/MainWindow.xib
+c000000004D59AB3A0000000000005D64
+t1297722170
+s23908
+
+N/Developer/Convore/build/Convore.build/Debug-iphonesimulator/Convore.build/Objects-normal/i386/Base64.o
+t1297721014
+s8100
+
+N/Developer/Convore/build/Convore.build/Debug-iphonesimulator/Convore.build/Objects-normal/i386/Convore.LinkFileList
+c000000004D59A4E700000000000001B7
+t1297720551
+s439
+
+N/Developer/Convore/build/Convore.build/Debug-iphonesimulator/Convore.build/Objects-normal/i386/ConvoreAppDelegate.o
+t1297723105
+s50500
+
+N/Developer/Convore/build/Convore.build/Debug-iphonesimulator/Convore.build/Objects-normal/i386/LoginViewController.o
+t1297723171
+s47216
+
+N/Developer/Convore/build/Convore.build/Debug-iphonesimulator/Convore.build/Objects-normal/i386/MainViewController.o
+t2
+s0
+
+N/Developer/Convore/build/Convore.build/Debug-iphonesimulator/Convore.build/Objects-normal/i386/main.o
+t1297720555
+s6264
+
+N/Developer/Convore/build/Debug-iphonesimulator/Convore.app
+t1297723171
+s238
+
+N/Developer/Convore/build/Debug-iphonesimulator/Convore.app.dSYM
+t1297723171
+s102
+
+N/Developer/Convore/build/Debug-iphonesimulator/Convore.app/Convore
+t1297723171
+s23320
+
+N/Developer/Convore/build/Debug-iphonesimulator/Convore.app/Info.plist
+t1297720552
+s591
+
+N/Developer/Convore/build/Debug-iphonesimulator/Convore.app/LoginViewController.nib
+t1297723105
+s4282
+
+N/Developer/Convore/build/Debug-iphonesimulator/Convore.app/MainViewController.nib
+t2
+s0
+
+N/Developer/Convore/build/Debug-iphonesimulator/Convore.app/MainWindow.nib
+t1297722325
+s2538
+
+N/Developer/Convore/build/Debug-iphonesimulator/Convore.app/PkgInfo
+t1297720552
+s8
+
+N/Developer/Convore/main.m
+c000000004D599B6D0000000000000172
+t1297718125
+s370
+i<UIKit/UIKit.h>
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk
+c000000004C6C30170000000000000110
+t1282158615
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004C5A4DB60000000000295900
+t1280986550
+s2709760
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004C5A4DB0000000000029D580
+t1280986544
+s2741632
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C5A4DA10000000000001466
+t1280986529
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C6241ED00000000000009CD
+t1281507821
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C6242840000000001E228C0
+t1281507972
+s31598784
+
+N/var/folders/Hp/HpVBSraeHzmsLFbom5szkU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Convore_Prefix-bdfylqysddpletcognfimmkcpapz/Convore_Prefix.pch.gch
+t1297720554
+s15211536
+
+NConvore-Info.plist
+c000000004D599B6D000000000000038D
+t1297718125
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies319415973#319415973#0(0"0(0#1#0"8620840288#0"0#
+
+CCompileC build/Convore.build/Debug-iphonesimulator/Convore.build/Objects-normal/i386/Base64.o /Developer/Convore/Classes/Base64.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319413814.436445
+e319413814.690807
+r1
+xCompileC
+xbuild/Convore.build/Debug-iphonesimulator/Convore.build/Objects-normal/i386/Base64.o
+x/Developer/Convore/Classes/Base64.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Developer/Convore/Classes/Base64.m: In function '+[Base64 encode:]':
+o/Developer/Convore/Classes/Base64.m:44: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness
+o/Developer/Convore/Classes/Base64.m:44: warning: 'stringWithCString:length:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:389)
+o/Developer/Convore/Classes/Base64.m:44: warning: pointer targets in passing argument 1 of 'stringWithCString:length:' differ in signedness
+lSLF07#2@43"Compile /Developer/Convore/Classes/Base64.m319413814#319413814#0(588"/Developer/Convore/Classes/Base64.m: In function '+[Base64 encode:]':/Developer/Convore/Classes/Base64.m:44: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness/Developer/Convore/Classes/Base64.m:44: warning: 'stringWithCString:length:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:389)/Developer/Convore/Classes/Base64.m:44: warning: pointer targets in passing argument 1 of 'stringWithCString:length:' differ in signedness3(22@70"Pointer targets in passing argument 1 of 'strlen' differ in signedness319413814#70#120#0(6@35"/Developer/Convore/Classes/Base64.m319413520#44#0#44#0#65"pointer targets in passing argument * of '*' differ in signedness0(22@209"'stringWithCString:length:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:389)319413814#190#259#0(6@35"/Developer/Convore/Classes/Base64.m319413520#44#0#44#0#33"'*' is deprecated (declared at *)0(22@89"Pointer targets in passing argument 1 of 'stringWithCString:length:' differ in signedness319413814#449#139#0(6@35"/Developer/Convore/Classes/Base64.m319413520#44#0#44#0#65"pointer targets in passing argument * of '*' differ in signedness0(0#0#35"/Developer/Convore/Classes/Base64.m8612149536#1706"    cd /Developer/Convore    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Developer/Convore/build/Convore.build/Debug-iphonesimulator/Convore.build/Convore-generated-files.hmap -I/Developer/Convore/build/Convore.build/Debug-iphonesimulator/Convore.build/Convore-own-target-headers.hmap -I/Developer/Convore/build/Convore.build/Debug-iphonesimulator/Convore.build/Convore-all-target-headers.hmap -iquote /Developer/Convore/build/Convore.build/Debug-iphonesimulator/Convore.build/Convore-project-headers.hmap -F/Developer/Convore/build/Debug-iphonesimulator -I/Developer/Convore/build/Debug-iphonesimulator/include -I/Developer/Convore/build/Convore.build/Debug-iphonesimulator/Convore.build/DerivedSources/i386 -I/Developer/Convore/build/Convore.build/Debug-iphonesimulator/Convore.build/DerivedSources -include /var/folders/Hp/HpVBSraeHzmsLFbom5szkU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Convore_Prefix-bdfylqysddpletcognfimmkcpapz/Convore_Prefix.pch -c /Developer/Convore/Classes/Base64.m -o /Developer/Convore/build/Convore.build/Debug-iphonesimulator/Convore.build/Objects-normal/i386/Base64.o0#
+
+CCompileC build/Convore.build/Debug-iphonesimulator/Convore.build/Objects-normal/i386/ConvoreAppDelegate.o /Developer/Convore/Classes/ConvoreAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319415905.837652
+e319415905.977564
+r1
+xCompileC
+xbuild/Convore.build/Debug-iphonesimulator/Convore.build/Objects-normal/i386/ConvoreAppDelegate.o
+x/Developer/Convore/Classes/ConvoreAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Developer/Convore/Classes/ConvoreAppDelegate.m319415905#319415905#0(0"0(0#0#47"/Developer/Convore/Classes/ConvoreAppDelegate.m8619577472#1730"    cd /Developer/Convore    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Developer/Convore/build/Convore.build/Debug-iphonesimulator/Convore.build/Convore-generated-files.hmap -I/Developer/Convore/build/Convore.build/Debug-iphonesimulator/Convore.build/Convore-own-target-headers.hmap -I/Developer/Convore/build/Convore.build/Debug-iphonesimulator/Convore.build/Convore-all-target-headers.hmap -iquote /Developer/Convore/build/Convore.build/Debug-iphonesimulator/Convore.build/Convore-project-headers.hmap -F/Developer/Convore/build/Debug-iphonesimulator -I/Developer/Convore/build/Debug-iphonesimulator/include -I/Developer/Convore/build/Convore.build/Debug-iphonesimulator/Convore.build/DerivedSources/i386 -I/Developer/Convore/build/Convore.build/Debug-iphonesimulator/Convore.build/DerivedSources -include /var/folders/Hp/HpVBSraeHzmsLFbom5szkU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Convore_Prefix-bdfylqysddpletcognfimmkcpapz/Convore_Prefix.pch -c /Developer/Convore/Classes/ConvoreAppDelegate.m -o /Developer/Convore/build/Convore.build/Debug-iphonesimulator/Convore.build/Objects-normal/i386/ConvoreAppDelegate.o0#
+
+CCompileC build/Convore.build/Debug-iphonesimulator/Convore.build/Objects-normal/i386/LoginViewController.o /Developer/Convore/Classes/LoginViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319415970.960338
+e319415971.077694
+r1
+xCompileC
+xbuild/Convore.build/Debug-iphonesimulator/Convore.build/Objects-normal/i386/LoginViewController.o
+x/Developer/Convore/Classes/LoginViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Developer/Convore/Classes/LoginViewController.m: In function '-[LoginViewController loginClick:]':
+o/Developer/Convore/Classes/LoginViewController.m:78: warning: 'stringWithCString:length:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:389)
+lSLF07#2@56"Compile /Developer/Convore/Classes/LoginViewController.m319415970#319415971#0(372"/Developer/Convore/Classes/LoginViewController.m: In function '-[LoginViewController loginClick:]':/Developer/Convore/Classes/LoginViewController.m:78: warning: 'stringWithCString:length:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:389)1(22@209"'stringWithCString:length:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:389)319415971#100#272#0(6@48"/Developer/Convore/Classes/LoginViewController.m319415970#78#0#78#0#33"'*' is deprecated (declared at *)0(0#0#48"/Developer/Convore/Classes/LoginViewController.m8619450240#1732"    cd /Developer/Convore    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Developer/Convore/build/Convore.build/Debug-iphonesimulator/Convore.build/Convore-generated-files.hmap -I/Developer/Convore/build/Convore.build/Debug-iphonesimulator/Convore.build/Convore-own-target-headers.hmap -I/Developer/Convore/build/Convore.build/Debug-iphonesimulator/Convore.build/Convore-all-target-headers.hmap -iquote /Developer/Convore/build/Convore.build/Debug-iphonesimulator/Convore.build/Convore-project-headers.hmap -F/Developer/Convore/build/Debug-iphonesimulator -I/Developer/Convore/build/Debug-iphonesimulator/include -I/Developer/Convore/build/Convore.build/Debug-iphonesimulator/Convore.build/DerivedSources/i386 -I/Developer/Convore/build/Convore.build/Debug-iphonesimulator/Convore.build/DerivedSources -include /var/folders/Hp/HpVBSraeHzmsLFbom5szkU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Convore_Prefix-bdfylqysddpletcognfimmkcpapz/Convore_Prefix.pch -c /Developer/Convore/Classes/LoginViewController.m -o /Developer/Convore/build/Convore.build/Debug-iphonesimulator/Convore.build/Objects-normal/i386/LoginViewController.o0#
+
+CCompileC build/Convore.build/Debug-iphonesimulator/Convore.build/Objects-normal/i386/MainViewController.o /Developer/Convore/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/Convore.build/Debug-iphonesimulator/Convore.build/Objects-normal/i386/main.o /Developer/Convore/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319413354.264394
+e319413355.338800
+r1
+xCompileC
+xbuild/Convore.build/Debug-iphonesimulator/Convore.build/Objects-normal/i386/main.o
+x/Developer/Convore/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@33"Compile /Developer/Convore/main.m319413354#319413355#0(0"0(0#0#25"/Developer/Convore/main.m8603081216#1694"    cd /Developer/Convore    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Developer/Convore/build/Convore.build/Debug-iphonesimulator/Convore.build/Convore-generated-files.hmap -I/Developer/Convore/build/Convore.build/Debug-iphonesimulator/Convore.build/Convore-own-target-headers.hmap -I/Developer/Convore/build/Convore.build/Debug-iphonesimulator/Convore.build/Convore-all-target-headers.hmap -iquote /Developer/Convore/build/Convore.build/Debug-iphonesimulator/Convore.build/Convore-project-headers.hmap -F/Developer/Convore/build/Debug-iphonesimulator -I/Developer/Convore/build/Debug-iphonesimulator/include -I/Developer/Convore/build/Convore.build/Debug-iphonesimulator/Convore.build/DerivedSources/i386 -I/Developer/Convore/build/Convore.build/Debug-iphonesimulator/Convore.build/DerivedSources -include /var/folders/Hp/HpVBSraeHzmsLFbom5szkU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Convore_Prefix-bdfylqysddpletcognfimmkcpapz/Convore_Prefix.pch -c /Developer/Convore/main.m -o /Developer/Convore/build/Convore.build/Debug-iphonesimulator/Convore.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Developer/Convore/Classes/LoginViewController.xib
+s319415904.743190
+e319415905.837306
+r1
+xCompileXIB
+x/Developer/Convore/Classes/LoginViewController.xib
+lSLF07#2@42"CompileXIB Classes/LoginViewController.xib319415904#319415905#0(0"0(0#0#50"/Developer/Convore/Classes/LoginViewController.xib8620798912#536"    cd /Developer/Convore    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Developer/Convore/build/Debug-iphonesimulator/Convore.app/LoginViewController.nib /Developer/Convore/Classes/LoginViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCompileXIB /Developer/Convore/Classes/MainViewController.xib
+r0
+
+CCompileXIB /Developer/Convore/MainWindow.xib
+s319415124.305515
+e319415125.996527
+r1
+xCompileXIB
+x/Developer/Convore/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib319415124#319415125#0(0"0(0#0#33"/Developer/Convore/MainWindow.xib8618739648#510"    cd /Developer/Convore    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Developer/Convore/build/Debug-iphonesimulator/Convore.app/MainWindow.nib /Developer/Convore/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CGenerateDSYMFile /Developer/Convore/build/Debug-iphonesimulator/Convore.app.dSYM /Developer/Convore/build/Debug-iphonesimulator/Convore.app/Convore
+s319415971.106579
+e319415971.123753
+r1
+xGenerateDSYMFile
+x/Developer/Convore/build/Debug-iphonesimulator/Convore.app.dSYM
+x/Developer/Convore/build/Debug-iphonesimulator/Convore.app/Convore
+lSLF07#2@109"GenerateDSYMFile build/Debug-iphonesimulator/Convore.app.dSYM build/Debug-iphonesimulator/Convore.app/Convore319415971#319415971#0(0"0(0#0#66"/Developer/Convore/build/Debug-iphonesimulator/Convore.app/Convore8620516768#323"    cd /Developer/Convore    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Developer/Convore/build/Debug-iphonesimulator/Convore.app/Convore -o /Developer/Convore/build/Debug-iphonesimulator/Convore.app.dSYM0#
+
+CLd /Developer/Convore/build/Debug-iphonesimulator/Convore.app/Convore normal i386
+s319415971.077782
+e319415971.106446
+r1
+xLd
+x/Developer/Convore/build/Debug-iphonesimulator/Convore.app/Convore
+xnormal
+xi386
+lSLF07#2@71"Link /Developer/Convore/build/Debug-iphonesimulator/Convore.app/Convore319415971#319415971#0(0"0(0#0#0"8620951808#800"    cd /Developer/Convore    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -L/Developer/Convore/build/Debug-iphonesimulator -F/Developer/Convore/build/Debug-iphonesimulator -filelist /Developer/Convore/build/Convore.build/Debug-iphonesimulator/Convore.build/Objects-normal/i386/Convore.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Developer/Convore/build/Debug-iphonesimulator/Convore.app/Convore0#
+
+CProcessInfoPlistFile /Developer/Convore/build/Debug-iphonesimulator/Convore.app/Info.plist Convore-Info.plist
+s319413351.910597
+e319413352.008353
+r1
+xProcessInfoPlistFile
+x/Developer/Convore/build/Debug-iphonesimulator/Convore.app/Info.plist
+xConvore-Info.plist
+lSLF07#2@26"Process Convore-Info.plist319413351#319413352#0(0"0(0#0#37"/Developer/Convore/Convore-Info.plist31244160508756040#419"    cd /Developer/Convore    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Convore-Info.plist -genpkginfo /Developer/Convore/build/Debug-iphonesimulator/Convore.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Developer/Convore/build/Debug-iphonesimulator/Convore.app/Info.plist0#
+
+CProcessPCH /var/folders/Hp/HpVBSraeHzmsLFbom5szkU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Convore_Prefix-bdfylqysddpletcognfimmkcpapz/Convore_Prefix.pch.gch Convore_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s319413352.872942
+e319413354.264116
+r1
+xProcessPCH
+x/var/folders/Hp/HpVBSraeHzmsLFbom5szkU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Convore_Prefix-bdfylqysddpletcognfimmkcpapz/Convore_Prefix.pch.gch
+xConvore_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile Convore_Prefix.pch319413352#319413354#0(0"0(0#0#37"/Developer/Convore/Convore_Prefix.pch8611552512#1606"    cd /Developer/Convore    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Developer/Convore/build/Convore.build/Debug-iphonesimulator/Convore.build/Convore-generated-files.hmap -I/Developer/Convore/build/Convore.build/Debug-iphonesimulator/Convore.build/Convore-own-target-headers.hmap -I/Developer/Convore/build/Convore.build/Debug-iphonesimulator/Convore.build/Convore-all-target-headers.hmap -iquote /Developer/Convore/build/Convore.build/Debug-iphonesimulator/Convore.build/Convore-project-headers.hmap -F/Developer/Convore/build/Debug-iphonesimulator -I/Developer/Convore/build/Debug-iphonesimulator/include -I/Developer/Convore/build/Convore.build/Debug-iphonesimulator/Convore.build/DerivedSources/i386 -I/Developer/Convore/build/Convore.build/Debug-iphonesimulator/Convore.build/DerivedSources -c /Developer/Convore/Convore_Prefix.pch -o /var/folders/Hp/HpVBSraeHzmsLFbom5szkU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Convore_Prefix-bdfylqysddpletcognfimmkcpapz/Convore_Prefix.pch.gch0#
+
+CTouch /Developer/Convore/build/Debug-iphonesimulator/Convore.app
+s319415971.123869
+e319415971.126334
+r1
+xTouch
+x/Developer/Convore/build/Debug-iphonesimulator/Convore.app
+lSLF07#2@64"Touch /Developer/Convore/build/Debug-iphonesimulator/Convore.app319415971#319415971#0(0"0(0#0#0"8620426208#238"    cd /Developer/Convore    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Developer/Convore/build/Debug-iphonesimulator/Convore.app0#
+
