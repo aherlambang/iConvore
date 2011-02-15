@@ -10,9 +10,10 @@
 
 
 @implementation LoginViewController
-@synthesize username;
-@synthesize password;
+@synthesize _username;
+@synthesize _password;
 @synthesize login;
+@synthesize delegate;
 
 /*
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
@@ -27,8 +28,8 @@
 
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
-	[username setDelegate:self];
-	[password setDelegate:self];
+	[_username setDelegate:self];
+	[_password setDelegate:self];
     [super viewDidLoad];
 }
 
@@ -48,9 +49,7 @@
 	NSError *myError = nil;  
 	
 	// create a plaintext string in the format username:password  
-	NSMutableString *loginString = (NSMutableString*)[@"" stringByAppendingFormat:@"%@:%@", username, password]; 
-	NSLog(@"%@", username.text);
-	NSLog(@"%@", password.text);
+	NSMutableString *loginString = (NSMutableString*)[@"" stringByAppendingFormat:@"%@:%@", _username.text, _password.text]; 
 	
 	// employ the Base64 encoding above to encode the authentication tokens  
 	NSString *encodedLoginData = [Base64 encode:[loginString dataUsingEncoding:NSUTF8StringEncoding]];  
@@ -74,9 +73,20 @@
 					error: &myError];    
 	//*error = myError;  
 	
-	// POW, here's the content of the webserver's response.  
+	// POW, here's the content of the webserver's response.
+	
 	NSString *result = [NSString stringWithCString:[data bytes] length:[data length]]; 
-	NSLog(@"%@", result);
+	if ([result isEqualToString:@"{\"error\": \"User matching query does not exist.\"}"]){
+		NSLog(@"Combination of username and password can't be found");
+	}else {
+		[self.delegate viewController:self loginWithUsername:_username.text andPassword:_password.text];
+	
+		results = [[result JSONValue] retain];
+		
+		//for (NSString * element in results)
+	}
+
+	
 }
 
 - (void)didReceiveMemoryWarning {
@@ -94,6 +104,9 @@
 
 
 - (void)dealloc {
+	[_username release];
+	[_password release];
+	[results release];
     [super dealloc];
 }
 

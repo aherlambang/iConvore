@@ -11,6 +11,7 @@
 @implementation ConvoreAppDelegate
 
 @synthesize window;
+@synthesize main;
 
 
 #pragma mark -
@@ -19,12 +20,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
     
     // Override point for customization after application launch.
-    
-	login = [[LoginViewController alloc] init];
-	[window addSubview:tabBar.view];
-	[window addSubview:login.view];
-    [window makeKeyAndVisible];
-	
+	[window addSubview:main.view];
     [window makeKeyAndVisible];
     
     return YES;

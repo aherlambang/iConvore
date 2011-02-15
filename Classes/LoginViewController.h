@@ -9,18 +9,30 @@
 #import <UIKit/UIKit.h>
 #import "Base64.h"
 
+@class LoginViewController;
+
+@protocol LoginViewControllerDelegate
+
+- (void) viewController:(LoginViewController*)viewCon loginWithUsername:(NSString*)username andPassword:(NSString*)password;
+
+@end
+
 
 @interface LoginViewController : UIViewController <UITextFieldDelegate>{
-	UITextField * username;
-	UITextField * password;
+	UITextField * _username;
+	UITextField * _password;
 	UIButton * login;
-	
+	NSArray * results;
+	id <LoginViewControllerDelegate> delegate;
 }
 
-@property (nonatomic, retain) IBOutlet UITextField * username;
-@property (nonatomic, retain) IBOutlet UITextField * password;
+@property (nonatomic, retain) IBOutlet UITextField * _username;
+@property (nonatomic, retain) IBOutlet UITextField * _password;
 @property (nonatomic, retain) IBOutlet UIButton * login;
+@property (nonatomic, retain) NSArray * results;
 
 - (IBAction) loginClick: (id) sender;
+
+@property (nonatomic, assign) id <LoginViewControllerDelegate> delegate;
 
 @end

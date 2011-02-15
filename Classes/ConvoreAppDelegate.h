@@ -7,15 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "LoginViewController.h"
+#import "MainView.h"
 
 @interface ConvoreAppDelegate : NSObject <UIApplicationDelegate> {
-	LoginViewController * login;
-	UITabBarController * tabBar;
-    UIWindow *window;
+	MainView * main;
+	UIWindow *window;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
+@property (nonatomic, retain) IBOutlet MainView * main;
+
 
 @end
 
